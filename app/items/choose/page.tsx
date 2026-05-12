@@ -41,7 +41,7 @@ export default function Page() {
                 </div>
             </div>
             {knapsack? 
-            <Link href='/' className="translate-y-[70px]">
+            <Link href='/items/choose/hit' className="translate-y-[70px]">
                 <img src="/next-button.png" alt="Next" width={100} height={100} className="translate-x-0 z-10 cursor-pointer transition hover:scale-110"/>
             </Link> : <div className="h-[80px]"/>
             }
