@@ -17,6 +17,7 @@ export interface RelicAllocation {
   ratio: number;
   quantityAvailable: number;
   quantityTaken: number;
+  fractionTaken: number;
   totalWeight: number;
   totalValue: number;
 }
@@ -27,6 +28,7 @@ export interface GreedyStep {
   name: string;
   ratio: number;
   quantityTaken: number;
+  fractionTaken: number;
   totalValueAdded: number;
   remainingCapacity: number;
   description: string;
