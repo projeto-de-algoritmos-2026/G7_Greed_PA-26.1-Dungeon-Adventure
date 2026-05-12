@@ -26,6 +26,8 @@ Adicione capturas de tela da aplicação aqui.
 **Framework**: Next.js 16 (App Router)<br>
 **Estilização**: Tailwind CSS 4<br>
 **Pré-Requisitos**: Node.js v20+<br>
+### Acesso deploy
+[Link da aventura](https://g7-greed-pa-26-1-dungeon-adventure.vercel.app/)
 
 ### Como rodar localmente
 
@@ -61,4 +63,4 @@ Ao abrir a aplicação:
 O projeto **não utiliza backend separado** — toda a lógica do algoritmo roda nas API Routes do Next.js (server-side), mantendo a arquitetura unificada em um único framework.
 
 ## Video explicativo
-(videoe explicativo)[https://g7-greed-pa-26-1-dungeon-adventure.vercel.app/]
+
