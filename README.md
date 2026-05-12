@@ -18,7 +18,11 @@ O **Dungeon Adventure** é uma aplicação web interativa e pedagógica que demo
 
 ## Screenshots
 
-Adicione capturas de tela da aplicação aqui.
+<img width="452" height="550" alt="image" src="https://github.com/user-attachments/assets/46d357a7-e451-48dd-9712-e8ec03661536" />
+<img width="351" height="394" alt="image" src="https://github.com/user-attachments/assets/5330d6a9-1706-4f18-9b46-135bab5f78ba" />
+<img width="387" height="436" alt="image" src="https://github.com/user-attachments/assets/94ef8c21-6240-46d5-ae8e-c72ab1fc08f3" />
+<img width="646" height="401" alt="image" src="https://github.com/user-attachments/assets/39270d1c-9646-42e1-84df-1418c60f6e45" />
+
 
 ## Instalação
 
@@ -63,4 +67,5 @@ Ao abrir a aplicação:
 O projeto **não utiliza backend separado** — toda a lógica do algoritmo roda nas API Routes do Next.js (server-side), mantendo a arquitetura unificada em um único framework.
 
 ## Video explicativo
+[vÍDEO](https://www.youtube.com/watch?v=arIWizzSzdQ)
 
