@@ -1,11 +1,5 @@
-export default function Home() {
+import { History } from "@/components/history";
 
-  return (
-    <div className="relative min-h-screen max-h-screen w-full bg-gray-300 flex flex-col justify-center items-center overflow-hidden">
-      <img src={'/background-better.avif'} className="absolute h-full w-full z-0 object-cover" />
-      <img src="/message.png" alt="Intro Message" width={600} height={150} className="z-10"/>
-      <img src="/character.png" alt="Character" width={600} height={600} className="-translate-x-4 z-10"/>
-      <img src="/next-button.png" alt="Next" width={100} height={100} className="translate-x-0 z-10 cursor-pointer transition hover:scale-110"/>
-    </div>
-  );
+export default function Page() {
+  return <History/>;
 }
