@@ -55,40 +55,10 @@ Ao abrir a aplicação:
 4. Na **tela de execução**, clique em **INICIAR** e depois em **PRÓXIMO PASSO** para ver cada decisão do algoritmo ambicioso em tempo real. Uma barra de progresso mostra a capacidade sendo preenchida e a fortuna sendo acumulada.
 5. Ao final, a **tela de resultado** exibe a mochila completa com todos os itens selecionados e o valor total obtido.
 
-## Estrutura do Projeto
-
-```
-├── app/
-│   ├── api/
-│   │   ├── knapsack/route.ts    # rota POST que executa o algoritmo
-│   │   └── relics/route.ts      # rota GET que retorna as relíquias
-│   ├── items/
-│   │   ├── page.tsx             # galeria de relíquias
-│   │   └── choose/
-│   │       ├── page.tsx         # quiz de escolha do algoritmo
-│   │       └── hit/
-│   │           └── page.tsx     # execução passo a passo + resultado
-│   ├── lib/
-│   │   ├── types.ts             # interfaces (Relic, RelicAllocation, GreedyStep, KnapsackResponse)
-│   │   ├── relics.ts            # dados das 9 relíquias e funções de consulta
-│   │   └── knapsack.ts          # implementação do Fractional Knapsack (greedy)
-│   ├── layout.tsx               # layout global com fonte pixel-art (Press Start 2P)
-│   ├── page.tsx                 # tela de introdução
-│   └── globals.css              # estilos globais
-├── components/
-│   ├── history.tsx              # componente da tela de introdução
-│   └── items.tsx                # componente da galeria de relíquias
-├── public/
-│   ├── items/                   # assets visuais das relíquias (PNG)
-│   ├── background-better.avif  # imagem de fundo da aplicação
-│   ├── character.png            # personagem da tela inicial
-│   ├── message.png              # balão de mensagem da introdução
-│   └── next-button.png          # botão de avançar estilizado
-└── package.json
-```
 
 ## Outros
 
 O projeto **não utiliza backend separado** — toda a lógica do algoritmo roda nas API Routes do Next.js (server-side), mantendo a arquitetura unificada em um único framework.
 
-A interface utiliza a fonte **Press Start 2P** para criar uma estética pixel-art/retro de RPG, complementada por assets ilustrados das relíquias.
+## Video explicativo
+(videoe explicativo)[https://g7-greed-pa-26-1-dungeon-adventure.vercel.app/]
